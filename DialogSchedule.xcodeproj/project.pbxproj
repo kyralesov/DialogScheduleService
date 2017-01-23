@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145D52961E35F29000CCF6AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52951E35F29000CCF6AC /* AppDelegate.swift */; };
+		145D52981E35F29000CCF6AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52971E35F29000CCF6AC /* ViewController.swift */; };
+		145D529B1E35F29000CCF6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145D52991E35F29000CCF6AC /* Main.storyboard */; };
+		145D529D1E35F29000CCF6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145D529C1E35F29000CCF6AC /* Assets.xcassets */; };
+		145D52A01E35F29000CCF6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145D529E1E35F29000CCF6AC /* LaunchScreen.storyboard */; };
+		145D52AB1E35F29000CCF6AC /* DialogScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52AA1E35F29000CCF6AC /* DialogScheduleTests.swift */; };
+		145D52B61E35F29000CCF6AC /* DialogScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52B51E35F29000CCF6AC /* DialogScheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		145D52A71E35F29000CCF6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145D528A1E35F29000CCF6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145D52911E35F29000CCF6AC;
+			remoteInfo = DialogSchedule;
+		};
+		145D52B21E35F29000CCF6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145D528A1E35F29000CCF6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145D52911E35F29000CCF6AC;
+			remoteInfo = DialogSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145D52921E35F29000CCF6AC /* DialogSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialogSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145D52951E35F29000CCF6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		145D52971E35F29000CCF6AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		145D529A1E35F29000CCF6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		145D529C1E35F29000CCF6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		145D529F1E35F29000CCF6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		145D52A11E35F29000CCF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145D52A61E35F29000CCF6AC /* DialogScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145D52AA1E35F29000CCF6AC /* DialogScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogScheduleTests.swift; sourceTree = "<group>"; };
+		145D52AC1E35F29000CCF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145D52B11E35F29000CCF6AC /* DialogScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145D52B51E35F29000CCF6AC /* DialogScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogScheduleUITests.swift; sourceTree = "<group>"; };
+		145D52B71E35F29000CCF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145D528F1E35F29000CCF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52A31E35F29000CCF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52AE1E35F29000CCF6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145D52891E35F29000CCF6AC = {
+			isa = PBXGroup;
+			children = (
+				145D52941E35F29000CCF6AC /* DialogSchedule */,
+				145D52A91E35F29000CCF6AC /* DialogScheduleTests */,
+				145D52B41E35F29000CCF6AC /* DialogScheduleUITests */,
+				145D52931E35F29000CCF6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		145D52931E35F29000CCF6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145D52921E35F29000CCF6AC /* DialogSchedule.app */,
+				145D52A61E35F29000CCF6AC /* DialogScheduleTests.xctest */,
+				145D52B11E35F29000CCF6AC /* DialogScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145D52941E35F29000CCF6AC /* DialogSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				145D52951E35F29000CCF6AC /* AppDelegate.swift */,
+				145D52971E35F29000CCF6AC /* ViewController.swift */,
+				145D52991E35F29000CCF6AC /* Main.storyboard */,
+				145D529C1E35F29000CCF6AC /* Assets.xcassets */,
+				145D529E1E35F29000CCF6AC /* LaunchScreen.storyboard */,
+				145D52A11E35F29000CCF6AC /* Info.plist */,
+			);
+			path = DialogSchedule;
+			sourceTree = "<group>";
+		};
+		145D52A91E35F29000CCF6AC /* DialogScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				145D52AA1E35F29000CCF6AC /* DialogScheduleTests.swift */,
+				145D52AC1E35F29000CCF6AC /* Info.plist */,
+			);
+			path = DialogScheduleTests;
+			sourceTree = "<group>";
+		};
+		145D52B41E35F29000CCF6AC /* DialogScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				145D52B51E35F29000CCF6AC /* DialogScheduleUITests.swift */,
+				145D52B71E35F29000CCF6AC /* Info.plist */,
+			);
+			path = DialogScheduleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		145D52911E35F29000CCF6AC /* DialogSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145D52BA1E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogSchedule" */;
+			buildPhases = (
+				145D528E1E35F29000CCF6AC /* Sources */,
+				145D528F1E35F29000CCF6AC /* Frameworks */,
+				145D52901E35F29000CCF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialogSchedule;
+			productName = DialogSchedule;
+			productReference = 145D52921E35F29000CCF6AC /* DialogSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145D52A51E35F29000CCF6AC /* DialogScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145D52BD1E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogScheduleTests" */;
+			buildPhases = (
+				145D52A21E35F29000CCF6AC /* Sources */,
+				145D52A31E35F29000CCF6AC /* Frameworks */,
+				145D52A41E35F29000CCF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145D52A81E35F29000CCF6AC /* PBXTargetDependency */,
+			);
+			name = DialogScheduleTests;
+			productName = DialogScheduleTests;
+			productReference = 145D52A61E35F29000CCF6AC /* DialogScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		145D52B01E35F29000CCF6AC /* DialogScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145D52C01E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogScheduleUITests" */;
+			buildPhases = (
+				145D52AD1E35F29000CCF6AC /* Sources */,
+				145D52AE1E35F29000CCF6AC /* Frameworks */,
+				145D52AF1E35F29000CCF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145D52B31E35F29000CCF6AC /* PBXTargetDependency */,
+			);
+			name = DialogScheduleUITests;
+			productName = DialogScheduleUITests;
+			productReference = 145D52B11E35F29000CCF6AC /* DialogScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		145D528A1E35F29000CCF6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eugene Kurilenko";
+				TargetAttributes = {
+					145D52911E35F29000CCF6AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+					};
+					145D52A51E35F29000CCF6AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 145D52911E35F29000CCF6AC;
+					};
+					145D52B01E35F29000CCF6AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 145D52911E35F29000CCF6AC;
+					};
+				};
+			};
+			buildConfigurationList = 145D528D1E35F29000CCF6AC /* Build configuration list for PBXProject "DialogSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 145D52891E35F29000CCF6AC;
+			productRefGroup = 145D52931E35F29000CCF6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145D52911E35F29000CCF6AC /* DialogSchedule */,
+				145D52A51E35F29000CCF6AC /* DialogScheduleTests */,
+				145D52B01E35F29000CCF6AC /* DialogScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		145D52901E35F29000CCF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145D52A01E35F29000CCF6AC /* LaunchScreen.storyboard in Resources */,
+				145D529D1E35F29000CCF6AC /* Assets.xcassets in Resources */,
+				145D529B1E35F29000CCF6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52A41E35F29000CCF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52AF1E35F29000CCF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		145D528E1E35F29000CCF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145D52981E35F29000CCF6AC /* ViewController.swift in Sources */,
+				145D52961E35F29000CCF6AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52A21E35F29000CCF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145D52AB1E35F29000CCF6AC /* DialogScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145D52AD1E35F29000CCF6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145D52B61E35F29000CCF6AC /* DialogScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		145D52A81E35F29000CCF6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145D52911E35F29000CCF6AC /* DialogSchedule */;
+			targetProxy = 145D52A71E35F29000CCF6AC /* PBXContainerItemProxy */;
+		};
+		145D52B31E35F29000CCF6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145D52911E35F29000CCF6AC /* DialogSchedule */;
+			targetProxy = 145D52B21E35F29000CCF6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		145D52991E35F29000CCF6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145D529A1E35F29000CCF6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		145D529E1E35F29000CCF6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145D529F1E35F29000CCF6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		145D52B81E35F29000CCF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		145D52B91E35F29000CCF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		145D52BB1E35F29000CCF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		145D52BC1E35F29000CCF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		145D52BE1E35F29000CCF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialogSchedule.app/DialogSchedule";
+			};
+			name = Debug;
+		};
+		145D52BF1E35F29000CCF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialogSchedule.app/DialogSchedule";
+			};
+			name = Release;
+		};
+		145D52C11E35F29000CCF6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DialogSchedule;
+			};
+			name = Debug;
+		};
+		145D52C21E35F29000CCF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = DialogScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.DialogScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DialogSchedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145D528D1E35F29000CCF6AC /* Build configuration list for PBXProject "DialogSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145D52B81E35F29000CCF6AC /* Debug */,
+				145D52B91E35F29000CCF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145D52BA1E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145D52BB1E35F29000CCF6AC /* Debug */,
+				145D52BC1E35F29000CCF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		145D52BD1E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145D52BE1E35F29000CCF6AC /* Debug */,
+				145D52BF1E35F29000CCF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		145D52C01E35F29000CCF6AC /* Build configuration list for PBXNativeTarget "DialogScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145D52C11E35F29000CCF6AC /* Debug */,
+				145D52C21E35F29000CCF6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 145D528A1E35F29000CCF6AC /* Project object */;
+}
