@@ -14,6 +14,7 @@
 		145D52A01E35F29000CCF6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145D529E1E35F29000CCF6AC /* LaunchScreen.storyboard */; };
 		145D52AB1E35F29000CCF6AC /* DialogScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52AA1E35F29000CCF6AC /* DialogScheduleTests.swift */; };
 		145D52B61E35F29000CCF6AC /* DialogScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52B51E35F29000CCF6AC /* DialogScheduleUITests.swift */; };
+		145D52C41E35F2AF00CCF6AC /* DialogScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D52C31E35F2AF00CCF6AC /* DialogScheduleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		145D52B11E35F29000CCF6AC /* DialogScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145D52B51E35F29000CCF6AC /* DialogScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogScheduleUITests.swift; sourceTree = "<group>"; };
 		145D52B71E35F29000CCF6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145D52C31E35F2AF00CCF6AC /* DialogScheduleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogScheduleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				145D529C1E35F29000CCF6AC /* Assets.xcassets */,
 				145D529E1E35F29000CCF6AC /* LaunchScreen.storyboard */,
 				145D52A11E35F29000CCF6AC /* Info.plist */,
+				145D52C31E35F2AF00CCF6AC /* DialogScheduleService.swift */,
 			);
 			path = DialogSchedule;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				145D52981E35F29000CCF6AC /* ViewController.swift in Sources */,
 				145D52961E35F29000CCF6AC /* AppDelegate.swift in Sources */,
+				145D52C41E35F2AF00CCF6AC /* DialogScheduleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

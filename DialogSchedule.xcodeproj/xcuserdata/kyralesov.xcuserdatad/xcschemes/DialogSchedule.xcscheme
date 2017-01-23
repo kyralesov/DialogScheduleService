@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "145D52911E35F29000CCF6AC"
+               BuildableName = "DialogSchedule.app"
+               BlueprintName = "DialogSchedule"
+               ReferencedContainer = "container:DialogSchedule.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "145D52A51E35F29000CCF6AC"
+               BuildableName = "DialogScheduleTests.xctest"
+               BlueprintName = "DialogScheduleTests"
+               ReferencedContainer = "container:DialogSchedule.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "145D52B01E35F29000CCF6AC"
+               BuildableName = "DialogScheduleUITests.xctest"
+               BlueprintName = "DialogScheduleUITests"
+               ReferencedContainer = "container:DialogSchedule.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "145D52911E35F29000CCF6AC"
+            BuildableName = "DialogSchedule.app"
+            BlueprintName = "DialogSchedule"
+            ReferencedContainer = "container:DialogSchedule.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "145D52911E35F29000CCF6AC"
+            BuildableName = "DialogSchedule.app"
+            BlueprintName = "DialogSchedule"
+            ReferencedContainer = "container:DialogSchedule.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "145D52911E35F29000CCF6AC"
+            BuildableName = "DialogSchedule.app"
+            BlueprintName = "DialogSchedule"
+            ReferencedContainer = "container:DialogSchedule.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

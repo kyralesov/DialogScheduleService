@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    //DialogScheduleService
+    var dialogSchedule: DialogScheduleService?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        dialogSchedule = DialogScheduleService(with: (10))
+        dialogSchedule?.delegate = self
+        dialogSchedule?.start()
+        
         return true
     }
 
@@ -39,8 +47,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
+        
     }
 
 
+}
+
+extension AppDelegate: DialogScheduleServiceDelegate {
+    internal func shouldCreateNewDialog() {
+        print("shouldCreateNewDialog")
+    }
+    
+    
 }
 
