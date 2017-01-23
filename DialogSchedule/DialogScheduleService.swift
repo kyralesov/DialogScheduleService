@@ -15,13 +15,13 @@ protocol DialogScheduleServiceDelegate: class {
 
 class DialogScheduleService {
     
-    static let remainingTimeKey = "DialogScheduleServiceRemainingTimeKey"
-    static let appEndTimeKey = "DialogScheduleServiceAppEndTimeKey"
+    private let remainingTimeKey = "DialogScheduleServiceRemainingTimeKey"
+    private let appEndTimeKey = "DialogScheduleServiceAppEndTimeKey"
     
     weak var delegate: DialogScheduleServiceDelegate?
     private var timer: Timer?
     private var time: TimeInterval?
-    let userDefaults = UserDefaults.standard
+    private let userDefaults = UserDefaults.standard
     
     
     init(with time: TimeInterval) {
@@ -55,30 +55,28 @@ class DialogScheduleService {
     }
     
     deinit {
-        
         NotificationCenter.default.removeObserver(self)
     }
     
     // Strat timer with time interval
-    func startTimer(with timeInterval: TimeInterval) {
+    private func startTimer(with timeInterval: TimeInterval) {
         timer = Timer.scheduledTimer(timeInterval: timeInterval,
                                      target: self,
                                      selector: #selector(timerDidEnd),
                                      userInfo: nil, repeats: false)
     }
     
-    
     // Affter timer has done
-    @objc func timerDidEnd() {
+    @objc private func timerDidEnd() {
         
         delegate?.shouldCreateNewDialog()
         // Timer is ended, remove remain Time Interval
-        userDefaults.removeObject(forKey: DialogScheduleService.remainingTimeKey)
-        userDefaults.removeObject(forKey: DialogScheduleService.appEndTimeKey)
+        userDefaults.removeObject(forKey: remainingTimeKey)
+        userDefaults.removeObject(forKey: appEndTimeKey)
     }
 
     // MARK: Notifications
-    @objc func applicationWillTerminate() {
+    @objc private func applicationWillTerminate() {
         
         // Save Remaining Time
         saveRemainingTime()
@@ -86,7 +84,7 @@ class DialogScheduleService {
         timer?.invalidate()
     }
     
-    @objc func applicationDidEnterBackground() {
+    @objc private func applicationDidEnterBackground() {
         
         // Save Remaining Time
         saveRemainingTime()
@@ -95,7 +93,7 @@ class DialogScheduleService {
 
     }
     
-    @objc func applicationDidBecomeActive() {
+    @objc private func applicationDidBecomeActive() {
         // 
         guard let restOfTimeInterval = restOfTime() else { return }
         
@@ -123,16 +121,16 @@ class DialogScheduleService {
     private func saveRemainingTime() {
         let remainingTime = self.remainingTime()
         
-        userDefaults.set(remainingTime, forKey: DialogScheduleService.remainingTimeKey)
-        userDefaults.set(Date(), forKey: DialogScheduleService.appEndTimeKey)
+        userDefaults.set(remainingTime, forKey: remainingTimeKey)
+        userDefaults.set(Date(), forKey: appEndTimeKey)
         
     }
     
     // Rest of time interval from user defaults
     private func restOfTime() -> TimeInterval? {
         guard
-            let restOfRemainingTime = userDefaults.value(forKey: DialogScheduleService.remainingTimeKey) as? TimeInterval,
-            let appEndTime = userDefaults.value(forKey: DialogScheduleService.appEndTimeKey) as? Date
+            let restOfRemainingTime = userDefaults.value(forKey: remainingTimeKey) as? TimeInterval,
+            let appEndTime = userDefaults.value(forKey: appEndTimeKey) as? Date
             else { return nil }
         
         let restOfAppEndTime = Date().timeIntervalSince(appEndTime)
